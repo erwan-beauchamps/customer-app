@@ -1,3 +1,5 @@
+import { OrdersComponent } from './orders/orders.component';
+import { CustomersComponent } from './customers/customers.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,7 +8,9 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomersComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
